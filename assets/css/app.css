@@ -1,0 +1,181 @@
+:root {
+  --primary: #014561;
+  --secondary: #BF9666;
+
+  --primary-light: #fff;
+  --secondary-light: #fff;
+
+  --primary-dark: #000;
+  --secondary-dark: #000;
+
+  --primary-font-color: #333;
+  --secondary-font-color: #828282;
+  --muted-font-color: #1C86A4;
+
+  --section-gap: 1rem;
+
+
+  --color-18: #2D2B29;
+  --color-19: #100F0D;
+  --color-20: #A2A1A1;
+  --color-21: #F1D807;
+  --color-22: #19511D;
+  --color-23: #2B9B40;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {}
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+
+  color: var(--color-19);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-link {
+  padding: 1rem 1rem;
+  width: 100%;
+  background: var(--color-22);
+  border-radius: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Especific */
+main {
+  height: 100vh;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 1rem 0;
+}
+
+header img {
+  width: auto;
+  height: auto;
+  padding: 1.5rem;
+  padding-top: 0%;
+  top: 0;
+  transform: translateY(-2rem);
+  display: none;
+}
+
+section {
+  min-width: 100vw;
+  max-width: 100vw;
+}
+
+section.background {
+  height: 30vh;
+  background-color: #000;
+}
+
+section.background img{
+  display: none;
+}
+
+section.main {
+  height: 100%;
+  flex: 1;
+  position: relative;
+
+  padding-top: 100px;
+}
+
+section.main .perfil {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: -25%;
+}
+
+section.main .perfil img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-sizing: content-box;
+  border-radius: 50%;
+  border: 7px solid var(--color-22);
+}
+
+section.main .perfil h2 {
+  font-weight: 600;
+}
+
+section.main .perfil p {
+  color: var(--color-20);
+  font-weight: 600;
+}
+
+section.main .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 2rem 2.5rem;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--color-23);
+}
+
+footer .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .links a {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: var(--color-22);
+}
