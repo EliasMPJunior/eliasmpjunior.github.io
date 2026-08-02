@@ -1,0 +1,13 @@
+@prefix ct: <http://standards.iso.org/iso/21597/-1/ed-1/en/Container#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix obdc: <http://ontobdc.org/ontology/domain/ns.ttl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ontobdc:storage/local/elias-web> a obdc:DataContainer ;
+    dcterms:identifier "urn:ontobdc:storage/local/elias-web" ;
+    dcterms:title "Storage Container: elias-web"@en ;
+    ct:creationDate "2026-08-02T16:38:39.936106+00:00"^^xsd:dateTime ;
+    ct:description "Local storage container at Storage Container: elias-web"@en ;
+    prov:atLocation <file:///Users/eliasmpjunior/dev/bim/my-desktop/elias-web> .
+
