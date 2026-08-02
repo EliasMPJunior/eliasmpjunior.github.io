@@ -1,0 +1,245 @@
+site:
+  lang: pt-BR
+  title: Elias Magalhães — Personal Knowledge Graph
+brand:
+  mark: EM
+profile:
+  avatar: ./asset/image/elias.png
+  name: Elias Magalhães
+  name_lines: Elias\nMagalhães
+  login: EliasMPJunior · engº
+  bio: Certified BIM Specialist | **Software & Civil Engineer**\nBuilding data systems with IFC, openBIM and __ontologies__ | Creator of InfoBIM
+  followers: 12
+  following: 17
+  company: Brasidata - Consultoria em Tecnologia e Engenharia
+  email: eliasmagalhaesbr@gmail.com
+  website:
+    url: https://elias.eng.br
+    label: elias.eng.br
+  linkedin:
+    url: https://linkedin.com/in/elias-magalhaes
+    label: in/elias-magalhaes
+  infobim:
+    url: https://infobim.org
+    label: infobim.org
+  github:
+    url: https://github.com/EliasMPJunior
+    label: github.com/EliasMPJunior
+translations:
+  pt:
+    archive: Arquivo pessoal
+    archiveSub: BASE PÚBLICA DE CONHECIMENTO
+    search: Buscar projetos, organizações, domínios e ideias...
+    graph: GRAFO
+    timeline: LINHA DO TEMPO
+    index: ÍNDICE
+    followers: seguidores
+    following: seguindo
+    country: Brasil
+    explore: Explorar por assunto
+    knowledgeGraph: Grafo de conhecimento
+    graphHelp: Clique em qualquer nó para alterar o contexto atual.
+    domain: Domínio
+    project: Projeto
+    organization: Organização
+    practice: Prática
+    projection: PROJEÇÃO ATUAL · MAPA DE RELAÇÕES / PERFIL PÚBLICO 0.3
+    connected: Nós conectados
+    portable: Contexto portátil
+    askLlm: Pergunte à sua LLM sobre Elias
+    llmDesc: Copie um prompt autocontido com o contexto semântico atual e uma base JSON-LD embutida.
+    copy: COPIAR PROMPT + BASE DE CONHECIMENTO
+    copied: COPIADO
+    type_person: ENTIDADE RAIZ
+    type_domain: DOMÍNIO DE CONHECIMENTO
+    type_project: PROJETO
+    type_org: ORGANIZAÇÃO
+    type_practice: PRÁTICA PROFISSIONAL
+    connections: Conexões
+    kind: Tipo
+  en:
+    archive: Personal archive
+    archiveSub: PUBLIC KNOWLEDGE BASE
+    search: Search projects, organizations, domains and ideas...
+    graph: GRAPH
+    timeline: TIMELINE
+    index: INDEX
+    followers: followers
+    following: following
+    country: Brazil
+    explore: Explore by subject
+    knowledgeGraph: Knowledge graph
+    graphHelp: Click any node to change the current context.
+    domain: Domain
+    project: Project
+    organization: Organization
+    practice: Practice
+    projection: CURRENT PROJECTION · RELATIONSHIP MAP / PUBLIC PROFILE 0.3
+    connected: Connected nodes
+    portable: Portable context
+    askLlm: Ask your LLM about Elias
+    llmDesc: Copy a self-contained prompt with the current semantic context and an embedded JSON-LD knowledge base.
+    copy: COPY PROMPT + KNOWLEDGE BASE
+    copied: COPIED
+    type_person: ROOT ENTITY
+    type_domain: KNOWLEDGE DOMAIN
+    type_project: PROJECT
+    type_org: ORGANIZATION
+    type_practice: PROFESSIONAL PRACTICE
+    connections: Connections
+    kind: Type
+  es:
+    archive: Archivo personal
+    archiveSub: BASE PÚBLICA DE CONOCIMIENTO
+    search: Buscar proyectos, organizaciones, dominios e ideas...
+    graph: GRAFO
+    timeline: LÍNEA DE TIEMPO
+    index: ÍNDICE
+    followers: seguidores
+    following: siguiendo
+    country: Brasil
+    explore: Explorar por tema
+    knowledgeGraph: Grafo de conocimiento
+    graphHelp: Haz clic en cualquier nodo para cambiar el contexto actual.
+    domain: Dominio
+    project: Proyecto
+    organization: Organización
+    practice: Práctica
+    projection: PROYECCIÓN ACTUAL · MAPA DE RELACIONES / PERFIL PÚBLICO 0.3
+    connected: Nodos conectados
+    portable: Contexto portátil
+    askLlm: Pregunta a tu LLM sobre Elias
+    llmDesc: Copia un prompt autocontenido con el contexto semántico actual y una base JSON-LD integrada.
+    copy: COPIAR PROMPT + BASE DE CONOCIMIENTO
+    copied: COPIADO
+    type_person: ENTIDAD RAÍZ
+    type_domain: DOMINIO DE CONOCIMIENTO
+    type_project: PROYECTO
+    type_org: ORGANIZACIÓN
+    type_practice: PRÁCTICA PROFESIONAL
+    connections: Conexiones
+    kind: Tipo
+nodes:
+  - id: elias
+    label: Elias Magalhães
+    type: person
+    x: 50
+    y: 53
+    desc:
+      pt: Engenheiro civil e de software, especialista em BIM e sistemas de conhecimento.
+      en: Civil and software engineer, BIM specialist and knowledge systems practitioner.
+      es: Ingeniero civil y de software, especialista BIM y en sistemas de conocimiento.
+  - id: oil
+    label: Oil & Gas
+    type: domain
+    x: 21
+    y: 27
+    desc:
+      pt: Experiência em engenharia, fiscalização e informação no setor de óleo e gás.
+      en: Engineering, field supervision and information experience in oil and gas.
+      es: Experiencia en ingeniería, supervisión e información en petróleo y gas.
+  - id: openbim
+    label: OpenBIM
+    type: domain
+    x: 49
+    y: 20
+    desc:
+      pt: Interoperabilidade, IFC e fluxos de dados de engenharia.
+      en: Interoperability, IFC and engineering data workflows.
+      es: Interoperabilidad, IFC y flujos de datos de ingeniería.
+  - id: semantic
+    label: Semantic systems
+    type: domain
+    x: 77
+    y: 27
+    desc:
+      pt: Ontologias, knowledge graphs e dados executáveis.
+      en: Ontologies, knowledge graphs and executable data.
+      es: Ontologías, grafos de conocimiento y datos ejecutables.
+  - id: technip
+    label: TechnipFMC
+    type: org
+    x: 17
+    y: 50
+    desc:
+      pt: Atuação em fiscalização de obras e gestão de informação.
+      en: Field engineering and information management experience.
+      es: Experiencia en supervisión de obra y gestión de información.
+  - id: certi
+    label: CERTI / Petrobras CDE
+    type: project
+    x: 24
+    y: 76
+    desc:
+      pt: Desenvolvimento e entrega operacional de um CDE para a Petrobras.
+      en: Development and operational delivery of a CDE for Petrobras.
+      es: Desarrollo y entrega operacional de un CDE para Petrobras.
+  - id: education
+    label: BIM education
+    type: practice
+    x: 48
+    y: 38
+    desc:
+      pt: Docência e formação internacional em BIM e IA aplicada.
+      en: International teaching in BIM and applied AI.
+      es: Docencia internacional en BIM e IA aplicada.
+  - id: field
+    label: Field engineering
+    type: practice
+    x: 46
+    y: 81
+    desc:
+      pt: Fiscalização, inspeção, evidências e rastreabilidade em campo.
+      en: Field supervision, inspection, evidence and traceability.
+      es: Supervisión, inspección, evidencias y trazabilidad en campo.
+  - id: data
+    label: Data engineering
+    type: practice
+    x: 78
+    y: 44
+    desc:
+      pt: Pipelines, backend, integração e modelagem de dados.
+      en: Pipelines, backend, integration and data modeling.
+      es: Pipelines, backend, integración y modelado de datos.
+  - id: ontobdc
+    label: OntoBDC
+    type: project
+    x: 84
+    y: 56
+    desc:
+      pt: '**Runtime semântico determinístico** e modelo de contêiner para dados __portáteis__, governados e executáveis.'
+      en: '**Deterministic semantic runtime** and container model for __portable__, governed and executable datasets.'
+      es: '**Runtime semántico determinista** y modelo de contenedor para dados __portátiles__, gobernados y ejecutables.'
+  - id: infobim
+    label: InfoBIM
+    type: project
+    x: 70
+    y: 77
+    desc:
+      pt: Vertical BIM para explorar, validar e conectar informação de engenharia.
+      en: A BIM vertical for exploring, validating and connecting engineering information.
+      es: Vertical BIM para explorar, validar y conectar información de ingeniería.
+links:
+  - [elias, oil]
+  - [elias, openbim]
+  - [elias, semantic]
+  - [elias, technip]
+  - [elias, certi]
+  - [elias, education]
+  - [elias, field]
+  - [elias, data]
+  - [elias, ontobdc]
+  - [elias, infobim]
+  - [oil, technip]
+  - [oil, certi]
+  - [openbim, certi]
+  - [openbim, education]
+  - [openbim, infobim]
+  - [semantic, data]
+  - [semantic, ontobdc]
+  - [semantic, infobim]
+  - [technip, field]
+  - [certi, data]
+  - [data, ontobdc]
+  - [ontobdc, infobim]
+  - [field, infobim]
